@@ -1,0 +1,39 @@
+page_aff = 'index';
+
+/*function afficher(page){
+    for (var i = 0, elt; elt = pages[i]; i++) {
+	if (document.getElementById(elt).style.display == block)
+	    document.getElementById(elt).style.display = none;
+    }
+    document.getElementById(page).style.display = block;
+}
+*/
+/*
+function aff(page){
+    document.getElementById(page_aff).style.display = 'none';
+    page_aff = page;
+    document.getElementById(page_aff).style.display = 'block';
+    alert("ok");
+}*/
+
+function aff(p){
+    document.getElementById(page_aff).style.display = 'none';
+    document.getElementById(p).style.display = 'block';
+    page_aff = p;
+}
+
+document.querySelector('#add').addEventListener('click', function(event) {
+  var first = document.querySelector('#champ');
+  var clone = first.cloneNode(true);
+  clone.firstElementChild.nextElementSibling.innerHTML = ' ';
+  first.parentNode.appendChild(clone/*first.cloneNode(true)*/);
+  //first.parentNode.lastChild.firstChild.innerHTML = " ";
+});
+
+function prix(article) {
+  var valeur = article.options[article.selectedIndex].label;
+  cell = article.parentElement.nextElementSibling;
+  cell.innerHTML = valeur;
+  //var tab = document.getElementsByClassName('prix');
+  //tab[tab.length - 1].innerHTML = valeur;
+}

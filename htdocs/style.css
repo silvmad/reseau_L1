@@ -1,0 +1,204 @@
+@font-face
+{
+    font-family: 'aracne';
+    src: url('aracnecondensedregular.woff2') format('woff2'),
+         url('aracnecondensedregular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body
+{
+    background-color :  rgba(0, 85, 66, 0.8) /*rgba(1, 121, 111, 0.75) rgba(241, 196, 15, 1)*/;
+    margin-left : 20%;
+    margin-right : 20%;
+    font-family : "Liberation sans", Freesans, Arial, Helvetica, sans-serif;
+}
+p
+{
+    padding : 1%;
+    text-align : justify;
+}
+h1, h2
+{
+    padding-left : 2%;
+    font-family : aracne, "Liberation sans", Freesans, Arial, Helvetica, sans-serif;
+    font-weight : normal;
+    font-size : 250%;
+}
+img
+{
+    width : 70%;
+    display : block;
+    margin-right : auto;
+    margin-left : auto;
+}
+#page
+{
+    background-color : white
+}
+#entete
+{
+    background-color : #DFDFDF /*rgba(150, 150, 150, 0.5)*/;
+}
+#titre
+{
+    float : left;
+    font-family : aracne;
+    padding : 0.5%;
+    font-size : 3em;
+    padding-left : 5%;
+}
+#titre a
+{
+    text-decoration : none;
+    color : black;
+}
+#titre a:visited
+{
+    color : black;
+}
+#connexion
+{
+    font-family : "Liberation sans", Freesans, Arial, Helvetica, sans-serif;
+    font-size : medium;
+    text-align : right;
+    padding : 0.5%;
+/*en +*/
+        background-color : rgba(28, 129, 158, 0.8);
+}
+
+button
+{
+    cursor:pointer;
+    border-radius:5px;
+}
+
+.head_bouton
+{
+    background-color : rgba(28, 129, 158, 0.3);
+    padding : 0.1%;
+    /*margin : 0.5%;*/
+    width : 10%;
+    font-weight : bold;
+}
+.head_bouton:hover
+{
+    background-color : rgba(28, 169, 118, 0.3);
+}
+#bouton_bas
+{
+    margin-top : 0.5%;
+}
+#soustitre
+{
+    padding : 1%;
+}
+#menu
+{
+    width : 20%;
+    height : 75vh;
+    float : left;
+    background-color : rgba(255, 190, 0, 0.7);	
+    padding : 1%;
+    font-family : aracne, "Liberation sans", Freesans, Arial, Helvetica, sans-serif;
+    font-size : 1.45em;
+}
+.menu
+{
+    margin : auto;
+    width : 99%;
+    background-color : rgba(255, 190, 0, 0.7);	
+    padding : 1%;
+    font-family : aracne, "Liberation sans", Freesans, Arial, Helvetica, sans-serif;
+    font-size : 0.8em;
+}
+.menu:hover
+{
+    background-color : rgba(255, 240, 0, 0.5);
+}
+#menu a
+{
+    text-decoration : none;
+}
+#menu a:visited
+{
+    color : black;
+}
+#corps
+{
+    padding : 0 1% 2% 1%;
+    float : left;
+    width : 76%;
+    height : 75vh;
+    overflow : auto;
+}
+
+#index
+{
+    display : block;
+}
+
+#chataigneraie
+{
+    display : none;
+}
+
+#vergers
+{
+    display : none;
+}
+
+#tisanes
+{
+    display : none;
+}
+
+#catalogue
+{
+    display : none;
+}
+
+#connec
+{
+    display : none;
+}
+
+#home
+{
+    display : none;
+}
+
+#nouv_comm
+{
+    display : none;
+}
+
+#comm_cours
+{
+    display : none;
+}
+
+#comm_ter
+{
+    display : none;
+}
+
+#pied
+{
+    background-color : #DFDFDF /*rgba(150, 150, 150, 0.5)*/;
+    clear : left;
+    text-align : right;
+    padding : 5px
+}
+table
+{
+    border : medium solid #000000;
+    border-collapse : collapse;
+    width : 100%;
+    margin : auto;
+}
+td
+{
+    padding : 1%;
+    border : thin solid;
+}
